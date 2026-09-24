@@ -1,0 +1,9 @@
+{
+  "name": "guntur-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Personal portfolio for Muhammad Guntur Sarwoko.",
+  "scripts": {
+    "check": "node --check app.js"
+  }
+}
