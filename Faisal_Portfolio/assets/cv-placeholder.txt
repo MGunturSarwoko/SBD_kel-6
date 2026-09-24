@@ -1,0 +1,7 @@
+CV placeholder
+
+Silakan ganti file ini dengan file CV yang valid.
+
+Contoh:
+- Nama file: Muhammad-Faisal-Ali-Hafidz-CV.pdf
+- Atau ubah tautan pada index.html agar mengarah ke file CV yang sudah tersedia.
