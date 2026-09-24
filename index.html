@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kumpulan portfolio anggota kelompok SBD Kelompok 6."
+    />
+    <title>Portfolio SBD Kelompok 6</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: #101114;
+        color: #f4f4f5;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at top right, #263447 0, transparent 38rem),
+          #101114;
+      }
+
+      main {
+        width: min(1100px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 88px 0;
+      }
+
+      .eyebrow {
+        margin: 0 0 16px;
+        color: #93c5fd;
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        max-width: 720px;
+        margin: 0;
+        font-size: clamp(2.5rem, 7vw, 5.5rem);
+        line-height: 0.98;
+        letter-spacing: -0.06em;
+      }
+
+      .intro {
+        max-width: 620px;
+        margin: 24px 0 56px;
+        color: #b8bdc8;
+        font-size: 1.1rem;
+        line-height: 1.7;
+      }
+
+      .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .portfolio-card {
+        display: flex;
+        min-height: 245px;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 28px;
+        border: 1px solid #343945;
+        border-radius: 18px;
+        background: rgb(255 255 255 / 0.04);
+        color: inherit;
+        text-decoration: none;
+        transition: border-color 160ms ease, transform 160ms ease, background 160ms ease;
+      }
+
+      .portfolio-card:hover,
+      .portfolio-card:focus-visible {
+        border-color: #93c5fd;
+        background: rgb(147 197 253 / 0.1);
+        outline: none;
+        transform: translateY(-4px);
+      }
+
+      .card-number {
+        color: #93c5fd;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+      }
+
+      h2 {
+        margin: 30px 0 10px;
+        font-size: 1.45rem;
+      }
+
+      .portfolio-card p {
+        margin: 0;
+        color: #b8bdc8;
+        line-height: 1.6;
+      }
+
+      .open-link {
+        margin-top: 24px;
+        color: #dbeafe;
+        font-weight: 700;
+      }
+
+      @media (max-width: 780px) {
+        main {
+          padding: 56px 0;
+        }
+
+        .portfolio-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">SBD Kelompok 6</p>
+      <h1>Portfolio anggota kelompok.</h1>
+      <p class="intro">
+        Pilih portfolio yang ingin dibuka. Ketiganya berada dalam satu repository
+        dan dapat diakses melalui path masing-masing pada domain yang sama.
+      </p>
+
+      <section class="portfolio-grid" aria-label="Daftar portfolio">
+        <a class="portfolio-card" href="guntur-portfolio/">
+          <div>
+            <span class="card-number">01 / PORTFOLIO</span>
+            <h2>Muhammad Guntur Sarwoko</h2>
+            <p>Portfolio personal dengan pilihan bahasa dan tema.</p>
+          </div>
+          <span class="open-link">Buka portfolio&nbsp;→</span>
+        </a>
+
+        <a class="portfolio-card" href="Faisal_Portfolio/">
+          <div>
+            <span class="card-number">02 / PORTFOLIO</span>
+            <h2>Muhammad Faisal Ali Hafidz</h2>
+            <p>Profil, kemampuan, pendidikan, dan proyek dalam satu halaman.</p>
+          </div>
+          <span class="open-link">Buka portfolio&nbsp;→</span>
+        </a>
+
+        <a class="portfolio-card" href="yafi-portfolio/">
+          <div>
+            <span class="card-number">03 / PORTFOLIO</span>
+            <h2>Yafi Abhiyasa Ichsan</h2>
+            <p>Portfolio dengan fokus IoT dan embedded systems.</p>
+          </div>
+          <span class="open-link">Buka portfolio&nbsp;→</span>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
