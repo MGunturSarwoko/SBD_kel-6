@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="920" viewBox="0 0 800 920" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder foto profil</title>
+  <desc id="desc">Ilustrasi sederhana berwarna hitam putih untuk foto profil.</desc>
+  <rect width="800" height="920" fill="#f4f4f1"/>
+  <rect x="30" y="30" width="740" height="860" fill="#ffffff" stroke="#111111" stroke-width="8"/>
+  <circle cx="400" cy="315" r="160" fill="#d9d9d4" stroke="#111111" stroke-width="8"/>
+  <path d="M250 710c28-118 110-176 150-176s122 58 150 176" fill="#d9d9d4" stroke="#111111" stroke-width="8"/>
+  <rect x="120" y="680" width="560" height="100" fill="#111111"/>
+  <text x="400" y="742" text-anchor="middle" fill="#ffffff" font-size="38" font-family="Arial, Helvetica, sans-serif" font-weight="700">[Tambahkan foto profil]</text>
+</svg>
